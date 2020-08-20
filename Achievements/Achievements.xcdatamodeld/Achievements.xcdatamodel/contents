@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="isAchievedPR" optional="YES" attributeType="String"/>
+        <attribute name="isAchievedVR" optional="YES" attributeType="String"/>
+        <attribute name="personalRecords" optional="YES" attributeType="String"/>
+        <attribute name="userID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="virtualRaces" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="UserInfo" positionX="-45" positionY="0" width="128" height="118"/>
+    </elements>
 </model>

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		F69053A124ECCBA70075008C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053A024ECCBA70075008C /* AppDelegate.swift */; };
 		F69053A324ECCBA70075008C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053A224ECCBA70075008C /* SceneDelegate.swift */; };
-		F69053A524ECCBA70075008C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053A424ECCBA70075008C /* ViewController.swift */; };
 		F69053A824ECCBA70075008C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69053A624ECCBA70075008C /* Main.storyboard */; };
-		F69053AB24ECCBA70075008C /* Achievements.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F69053A924ECCBA70075008C /* Achievements.xcdatamodeld */; };
 		F69053AD24ECCBA80075008C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69053AC24ECCBA80075008C /* Assets.xcassets */; };
 		F69053B024ECCBA80075008C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69053AE24ECCBA80075008C /* LaunchScreen.storyboard */; };
 		F69053BB24ECCBA90075008C /* AchievementsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053BA24ECCBA90075008C /* AchievementsTests.swift */; };
+		F69053CE24ECD6F90075008C /* AchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053CD24ECD6F90075008C /* AchievementsViewController.swift */; };
+		F69053D024ECD7A20075008C /* AchievementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053CF24ECD7A20075008C /* AchievementsTableViewCell.swift */; };
+		F69053D224ECD8E80075008C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69053D124ECD8E80075008C /* CoreDataManager.swift */; };
+		F6B9A0F024EEF3AA00FB8075 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A0EF24EEF3AA00FB8075 /* ViewModel.swift */; };
+		F6B9A0F224EEF6B700FB8075 /* InitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A0F124EEF6B700FB8075 /* InitialData.swift */; };
+		F6B9A0F524EF036900FB8075 /* Achievements.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A0F324EF036900FB8075 /* Achievements.xcdatamodeld */; };
+		F6B9A0F724EF03BE00FB8075 /* Achievements.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A0F624EF03BE00FB8075 /* Achievements.xcmappingmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +36,20 @@
 		F690539D24ECCBA70075008C /* Achievements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Achievements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69053A024ECCBA70075008C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69053A224ECCBA70075008C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F69053A424ECCBA70075008C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F69053A724ECCBA70075008C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F69053AA24ECCBA70075008C /* Achievements.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Achievements.xcdatamodel; sourceTree = "<group>"; };
 		F69053AC24ECCBA80075008C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F69053AF24ECCBA80075008C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F69053B124ECCBA80075008C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69053B624ECCBA80075008C /* AchievementsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AchievementsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69053BA24ECCBA90075008C /* AchievementsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTests.swift; sourceTree = "<group>"; };
 		F69053BC24ECCBA90075008C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69053CD24ECD6F90075008C /* AchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsViewController.swift; sourceTree = "<group>"; };
+		F69053CF24ECD7A20075008C /* AchievementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTableViewCell.swift; sourceTree = "<group>"; };
+		F69053D124ECD8E80075008C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F6B9A0EF24EEF3AA00FB8075 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F6B9A0F124EEF6B700FB8075 /* InitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialData.swift; sourceTree = "<group>"; };
+		F6B9A0F424EF036900FB8075 /* Achievements.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Achievements.xcdatamodel; sourceTree = "<group>"; };
+		F6B9A0F624EF03BE00FB8075 /* Achievements.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = Achievements.xcmappingmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +91,15 @@
 		F690539F24ECCBA70075008C /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
-				F69053A024ECCBA70075008C /* AppDelegate.swift */,
-				F69053A224ECCBA70075008C /* SceneDelegate.swift */,
-				F69053A424ECCBA70075008C /* ViewController.swift */,
-				F69053A624ECCBA70075008C /* Main.storyboard */,
-				F69053AC24ECCBA80075008C /* Assets.xcassets */,
-				F69053AE24ECCBA80075008C /* LaunchScreen.storyboard */,
 				F69053B124ECCBA80075008C /* Info.plist */,
-				F69053A924ECCBA70075008C /* Achievements.xcdatamodeld */,
+				F69053AC24ECCBA80075008C /* Assets.xcassets */,
+				F69053CC24ECCC770075008C /* StoryBoards */,
+				F69053CB24ECCC450075008C /* Misc */,
+				F69053CA24ECCC390075008C /* InitialData */,
+				F69053C924ECCC310075008C /* ViewModel */,
+				F69053C824ECCC020075008C /* Subclasses */,
+				F69053C724ECCBF50075008C /* CoreData */,
+				F69053C524ECCBE80075008C /* ViewControllers */,
 			);
 			path = Achievements;
 			sourceTree = "<group>";
@@ -100,6 +111,66 @@
 				F69053BC24ECCBA90075008C /* Info.plist */,
 			);
 			path = AchievementsTests;
+			sourceTree = "<group>";
+		};
+		F69053C524ECCBE80075008C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F69053CD24ECD6F90075008C /* AchievementsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F69053C724ECCBF50075008C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F69053D124ECD8E80075008C /* CoreDataManager.swift */,
+				F6B9A0F324EF036900FB8075 /* Achievements.xcdatamodeld */,
+				F6B9A0F624EF03BE00FB8075 /* Achievements.xcmappingmodel */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F69053C824ECCC020075008C /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				F69053CF24ECD7A20075008C /* AchievementsTableViewCell.swift */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+		F69053C924ECCC310075008C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F6B9A0EF24EEF3AA00FB8075 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F69053CA24ECCC390075008C /* InitialData */ = {
+			isa = PBXGroup;
+			children = (
+				F6B9A0F124EEF6B700FB8075 /* InitialData.swift */,
+			);
+			path = InitialData;
+			sourceTree = "<group>";
+		};
+		F69053CB24ECCC450075008C /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				F69053A024ECCBA70075008C /* AppDelegate.swift */,
+				F69053A224ECCBA70075008C /* SceneDelegate.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		F69053CC24ECCC770075008C /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				F69053A624ECCBA70075008C /* Main.storyboard */,
+				F69053AE24ECCBA80075008C /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,10 +274,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69053A524ECCBA70075008C /* ViewController.swift in Sources */,
-				F69053AB24ECCBA70075008C /* Achievements.xcdatamodeld in Sources */,
+				F6B9A0F224EEF6B700FB8075 /* InitialData.swift in Sources */,
+				F69053D224ECD8E80075008C /* CoreDataManager.swift in Sources */,
+				F6B9A0F724EF03BE00FB8075 /* Achievements.xcmappingmodel in Sources */,
+				F69053D024ECD7A20075008C /* AchievementsTableViewCell.swift in Sources */,
 				F69053A124ECCBA70075008C /* AppDelegate.swift in Sources */,
 				F69053A324ECCBA70075008C /* SceneDelegate.swift in Sources */,
+				F6B9A0F524EF036900FB8075 /* Achievements.xcdatamodeld in Sources */,
+				F69053CE24ECD6F90075008C /* AchievementsViewController.swift in Sources */,
+				F6B9A0F024EEF3AA00FB8075 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X9SZBW7S9;
 				INFOPLIST_FILE = Achievements/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -384,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X9SZBW7S9;
 				INFOPLIST_FILE = Achievements/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,13 +549,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F69053A924ECCBA70075008C /* Achievements.xcdatamodeld */ = {
+		F6B9A0F324EF036900FB8075 /* Achievements.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F69053AA24ECCBA70075008C /* Achievements.xcdatamodel */,
+				F6B9A0F424EF036900FB8075 /* Achievements.xcdatamodel */,
 			);
-			currentVersion = F69053AA24ECCBA70075008C /* Achievements.xcdatamodel */;
-			path = Achievements.xcdatamodeld;
+			currentVersion = F6B9A0F424EF036900FB8075 /* Achievements.xcdatamodel */;
+			name = Achievements.xcdatamodeld;
+			path = ../Achievements.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

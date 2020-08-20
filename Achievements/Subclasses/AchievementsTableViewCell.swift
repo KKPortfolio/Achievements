@@ -10,15 +10,11 @@ import UIKit
 
 class AchievementsTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+    @IBOutlet weak var leftImage: UIImageView!
+    @IBOutlet weak var rightImage: UIImageView!
+    @IBOutlet weak var leftName: UILabel!
+    @IBOutlet weak var leftDetail: UILabel!
+    @IBOutlet weak var rightName: UILabel!
+    @IBOutlet weak var rightDetail: UILabel!
+    
 }
