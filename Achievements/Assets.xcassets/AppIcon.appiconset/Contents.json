@@ -31,6 +31,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "iphone.jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
@@ -76,11 +77,13 @@
       "size" : "76x76"
     },
     {
+      "filename" : "ipad.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
+      "filename" : "ipadPro.jpg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
