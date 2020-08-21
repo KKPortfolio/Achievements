@@ -94,9 +94,9 @@ extension AchievementsViewController: UITableViewDelegate, UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
-            return 3
+            return self.viewModel.personalRecordNames.count / 2
         } else {
-            return 3
+            return self.viewModel.virtualRaceNames.count / 2 
         }
     }
     
